@@ -58,6 +58,7 @@ public class DashboardActivity extends AppCompatActivity {
         items.add(new DynamicRvModel("Burger"));
         items.add(new DynamicRvModel("Burger"));
         items.add(new DynamicRvModel("Burger"));
+        items.add(new DynamicRvModel("Burger"));
 
         RecyclerView drv = findViewById(R.id.rv_2);
         drv.setLayoutManager(new LinearLayoutManager(this));
