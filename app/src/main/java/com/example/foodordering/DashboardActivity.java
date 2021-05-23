@@ -34,6 +34,7 @@ public class DashboardActivity extends AppCompatActivity {
         item.add(new StaticRvModel(R.drawable.activity_icon, "Badagry"));
         item.add(new StaticRvModel(R.drawable.activity_icon, "Shomolu"));
         item.add(new StaticRvModel(R.drawable.activity_icon, "Ifako-Ijaiye"));
+        item.add(new StaticRvModel(R.drawable.activity_icon, "Amuwo Odofin"));
 
         recyclerView = findViewById(R.id.rv_1);
         staticRvAdapter = new StaticRvAdapter(item);
